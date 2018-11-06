@@ -1,1 +1,1 @@
-# appdoo-VideocastPlayer
+# VideocastPlayer
