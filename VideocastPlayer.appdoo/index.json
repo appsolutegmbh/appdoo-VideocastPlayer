@@ -47,7 +47,7 @@
       "$domain" : "appdoo.iOS",
       "previewSize" : {
         "width" : 320,
-        "height" : 640
+        "height" : 568
       },
       "segues" : [
         {
@@ -99,7 +99,7 @@
         "viewData" : {
           "isExpandedInEditorOutline" : true,
           "$id" : "UIView6636",
-          "scrollLeft" : 0,
+          "$type" : "SceneRootView",
           "position" : {
             "top" : 0,
             "left" : 0
@@ -236,8 +236,8 @@
                   },
                   {
                     "$id" : "UILabel10335",
-                    "name" : "Icon",
-                    "fontFamily" : "System",
+                    "userInteractionEnabled" : true,
+                    "$type" : "UILabel",
                     "textAlignment" : "left",
                     "frame" : {
                       "origin" : {
@@ -266,9 +266,9 @@
                     "hidden" : false,
                     "fontSize" : 20,
                     "fontName" : "_DEFAULT_",
-                    "userInteractionEnabled" : true,
                     "autoFitWidth" : false,
-                    "$type" : "UILabel"
+                    "name" : "Icon",
+                    "fontFamily" : "System"
                   }
                 ],
                 "indexPath" : {
@@ -281,11 +281,11 @@
                 },
                 "heightIsEditable" : true,
                 "scrollTop" : 0,
-                "scrollLeft" : 0,
+                "$type" : "TableViewCellContentView",
                 "hidden" : false,
                 "modalTransitionStyle" : "-1",
                 "userInteractionEnabled" : true,
-                "$type" : "TableViewCellContentView"
+                "scrollLeft" : 0
               },
               "detailSceneID" : "Scene10197",
               "position" : {
@@ -321,7 +321,7 @@
               "listHeaderView" : {
                 "isExpandedInEditorOutline" : true,
                 "$id" : "TableViewHeaderView10270",
-                "scrollLeft" : 0,
+                "$type" : "TableViewHeaderView",
                 "position" : {
                   "top" : 0
                 },
@@ -364,8 +364,8 @@
                     "bindings" : [
                       {
                         "destination" : "RSS2DataSource10043",
-                        "destinationKeyPath" : "contents.description",
-                        "sourceKeyPath" : "text"
+                        "sourceKeyPath" : "text",
+                        "destinationKeyPath" : "contents.description"
                       }
                     ],
                     "transform" : "",
@@ -437,7 +437,7 @@
                 "alpha" : 1,
                 "hidden" : false,
                 "userInteractionEnabled" : true,
-                "$type" : "TableViewHeaderView"
+                "scrollLeft" : 0
               },
               "totalHeight" : 529,
               "modalTransitionStyle" : "-1",
@@ -445,12 +445,12 @@
               "scrollLeft" : 0,
               "staticSections" : [
                 {
-                  "$id" : "UITableViewSection10049",
+                  "$domain" : "appdoo.iOS",
                   "staticCells" : [
                     {
                       "isExpandedInEditorOutline" : true,
                       "$id" : "TableViewCellContentView10048",
-                      "scrollLeft" : 0,
+                      "$type" : "TableViewCellContentView",
                       "position" : {
                         "top" : 0,
                         "left" : 0
@@ -517,13 +517,13 @@
                       "hidden" : false,
                       "modalTransitionStyle" : "-1",
                       "userInteractionEnabled" : true,
-                      "$type" : "TableViewCellContentView"
+                      "scrollLeft" : 0
                     }
                   ],
                   "numberOfStaticCells" : 1,
                   "isExpandedInEditorOutline" : true,
                   "$type" : "UITableViewSection",
-                  "$domain" : "appdoo.iOS"
+                  "$id" : "UITableViewSection10049"
                 }
               ]
             }
@@ -539,7 +539,7 @@
           "hidden" : false,
           "userInteractionEnabled" : true,
           "name" : "Ansicht",
-          "$type" : "SceneRootView"
+          "scrollLeft" : 0
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -619,7 +619,7 @@
       "$domain" : "appdoo.iOS",
       "previewSize" : {
         "width" : 320,
-        "height" : 640
+        "height" : 568
       },
       "segues" : [
         {
@@ -743,7 +743,7 @@
           "isExpandedInEditorOutline" : true,
           "v_scrollsVertically" : true,
           "$id" : "SceneRootView10224",
-          "scrollLeft" : 0,
+          "$type" : "SceneRootView",
           "position" : {
             "top" : 0,
             "left" : 0
@@ -937,8 +937,8 @@
               "bindings" : [
                 {
                   "destination" : "Scene10197InputData",
-                  "destinationKeyPath" : "contents.description",
-                  "sourceKeyPath" : "text"
+                  "sourceKeyPath" : "text",
+                  "destinationKeyPath" : "contents.description"
                 }
               ],
               "heightIsEditable" : false,
@@ -1008,12 +1008,12 @@
                 },
                 "$id" : "MoviePlayerView10128DataProvider",
                 "actionInfo" : {
-                  "$type" : "ActionInfo",
+                  "$domain" : "appdoo",
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
-                  "type" : "objectAction",
                   "objectActionID" : "",
-                  "$domain" : "appdoo"
+                  "type" : "objectAction",
+                  "$type" : "ActionInfo"
                 },
                 "propertiesForBindings" : [
                   "currentPlaybackTime",
@@ -1072,8 +1072,8 @@
               "bindings" : [
                 {
                   "destination" : "Scene10197InputData",
-                  "destinationKeyPath" : "contents.title",
-                  "sourceKeyPath" : "text"
+                  "sourceKeyPath" : "text",
+                  "destinationKeyPath" : "contents.title"
                 }
               ],
               "heightIsEditable" : false,
@@ -1104,7 +1104,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "$type" : "SceneRootView"
+          "scrollLeft" : 0
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -1175,8 +1175,8 @@
                 "bindings" : [
                   {
                     "destination" : "Scene10197InputData",
-                    "destinationKeyPath" : "indexPath",
-                    "sourceKeyPath" : "inputDataIndexPath"
+                    "sourceKeyPath" : "inputDataIndexPath",
+                    "destinationKeyPath" : "indexPath"
                   }
                 ],
                 "$type" : "SegmentedNavigationArrows",
@@ -1209,7 +1209,7 @@
       "$domain" : "appdoo.iOS",
       "previewSize" : {
         "width" : 320,
-        "height" : 640
+        "height" : 568
       },
       "hasCustomInterfaceOrientations" : false,
       "objects" : [
@@ -1260,7 +1260,7 @@
         "viewData" : {
           "isExpandedInEditorOutline" : true,
           "$id" : "SceneRootView11695",
-          "$type" : "SceneRootView",
+          "scrollLeft" : 0,
           "position" : {
             "top" : 0,
             "left" : 0
@@ -1289,12 +1289,12 @@
                 },
                 "$id" : "UIWebView11708DataProvider",
                 "actionInfo" : {
-                  "$domain" : "appdoo",
+                  "objectActionID" : "",
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
                   "type" : "objectAction",
-                  "objectActionID" : "",
-                  "$type" : "ActionInfo"
+                  "$type" : "ActionInfo",
+                  "$domain" : "appdoo"
                 },
                 "propertiesForBindings" : [
                   "canGoForward",
@@ -1352,7 +1352,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "scrollLeft" : 0
+          "$type" : "SceneRootView"
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -1435,7 +1435,7 @@
       "$domain" : "appdoo.iOS",
       "previewSize" : {
         "width" : 320,
-        "height" : 640
+        "height" : 568
       },
       "segues" : [
         {
@@ -1458,8 +1458,8 @@
         "title" : "Info",
         "viewData" : {
           "isExpandedInEditorOutline" : true,
-          "scrollLeft" : 0,
           "$id" : "SceneRootView10048",
+          "$type" : "SceneRootView",
           "position" : {
             "top" : 0,
             "left" : 0
@@ -1678,7 +1678,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "$type" : "SceneRootView"
+          "scrollLeft" : 0
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -1823,8 +1823,8 @@
         "title" : "",
         "viewData" : {
           "isExpandedInEditorOutline" : true,
-          "scrollLeft" : 0,
           "$id" : "SceneRootView10051",
+          "$type" : "SceneRootView",
           "position" : {
             "top" : 0,
             "left" : 0
@@ -1853,12 +1853,12 @@
                 },
                 "$id" : "UIWebView10052DataProvider",
                 "actionInfo" : {
-                  "type" : "objectAction",
+                  "$domain" : "appdoo",
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
-                  "objectActionID" : "",
+                  "type" : "objectAction",
                   "$type" : "ActionInfo",
-                  "$domain" : "appdoo"
+                  "objectActionID" : ""
                 },
                 "propertiesForBindings" : [
                   "canGoForward",
@@ -1908,7 +1908,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "$type" : "SceneRootView"
+          "scrollLeft" : 0
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -1921,7 +1921,7 @@
       "hasCustomInterfaceOrientations" : false,
       "previewSize" : {
         "width" : 320,
-        "height" : 640
+        "height" : 568
       }
     }
   ],
@@ -2008,6 +2008,7 @@
       "globalObjectsNodeIsExpandedInEditorOutline" : true,
       "historyStackPosition" : 4
     },
+    "hidesStatusBarOnLaunch" : 0,
     "editorVersion" : 363,
     "title" : "VideocastPlayer",
     "formatVersion" : 363,
@@ -2024,7 +2025,7 @@
     "requiresBackgroundAudioPlayback" : false,
     "editedObject" : "Scene10045",
     "projectID" : "",
-    "companyName" : "appsolute GmbH",
+    "companyName" : "MAMPGmbH",
     "windowFrame" : "285 91 960 640 0 0 1440 878 ",
     "windowIsFullScreen" : false,
     "rootInstance" : "TabBarController",
