@@ -84,7 +84,7 @@
           },
           "$domain" : "info.appdoo-mac",
           "lastCheckWasValid" : "NASACast: This Week @ NASA Video",
-          "name" : "Houston We Have a Podcast"
+          "name" : "NASACast: This Week @ NASA Video"
         }
       ],
       "viewController" : {
@@ -99,7 +99,7 @@
         "viewData" : {
           "isExpandedInEditorOutline" : true,
           "$id" : "UIView6636",
-          "$type" : "SceneRootView",
+          "scrollLeft" : 0,
           "position" : {
             "top" : 0,
             "left" : 0
@@ -236,8 +236,8 @@
                   },
                   {
                     "$id" : "UILabel10335",
-                    "userInteractionEnabled" : true,
-                    "$type" : "UILabel",
+                    "name" : "Icon",
+                    "fontFamily" : "System",
                     "textAlignment" : "left",
                     "frame" : {
                       "origin" : {
@@ -267,8 +267,8 @@
                     "fontSize" : 20,
                     "fontName" : "_DEFAULT_",
                     "autoFitWidth" : false,
-                    "name" : "Icon",
-                    "fontFamily" : "System"
+                    "userInteractionEnabled" : true,
+                    "$type" : "UILabel"
                   }
                 ],
                 "indexPath" : {
@@ -281,11 +281,11 @@
                 },
                 "heightIsEditable" : true,
                 "scrollTop" : 0,
-                "$type" : "TableViewCellContentView",
+                "scrollLeft" : 0,
                 "hidden" : false,
                 "modalTransitionStyle" : "-1",
                 "userInteractionEnabled" : true,
-                "scrollLeft" : 0
+                "$type" : "TableViewCellContentView"
               },
               "detailSceneID" : "Scene10197",
               "position" : {
@@ -321,7 +321,7 @@
               "listHeaderView" : {
                 "isExpandedInEditorOutline" : true,
                 "$id" : "TableViewHeaderView10270",
-                "$type" : "TableViewHeaderView",
+                "scrollLeft" : 0,
                 "position" : {
                   "top" : 0
                 },
@@ -364,8 +364,8 @@
                     "bindings" : [
                       {
                         "destination" : "RSS2DataSource10043",
-                        "sourceKeyPath" : "text",
-                        "destinationKeyPath" : "contents.description"
+                        "destinationKeyPath" : "contents.description",
+                        "sourceKeyPath" : "text"
                       }
                     ],
                     "transform" : "",
@@ -390,16 +390,7 @@
                       "top" : 75,
                       "left" : 0
                     },
-                    "frame" : {
-                      "origin" : {
-                        "x" : 0,
-                        "y" : 75
-                      },
-                      "size" : {
-                        "width" : 320,
-                        "height" : 2
-                      }
-                    },
+                    "backgroundColor" : "#9a216b",
                     "$domain" : "info.appdoo-mac",
                     "autoresizingMask" : 10,
                     "layoutRelations" : [
@@ -411,6 +402,16 @@
                         "$id" : "Object10631"
                       }
                     ],
+                    "frame" : {
+                      "origin" : {
+                        "x" : 0,
+                        "y" : 75
+                      },
+                      "size" : {
+                        "width" : 320,
+                        "height" : 2
+                      }
+                    },
                     "transform" : "",
                     "size" : {
                       "width" : 320,
@@ -437,7 +438,7 @@
                 "alpha" : 1,
                 "hidden" : false,
                 "userInteractionEnabled" : true,
-                "scrollLeft" : 0
+                "$type" : "TableViewHeaderView"
               },
               "totalHeight" : 529,
               "modalTransitionStyle" : "-1",
@@ -445,12 +446,12 @@
               "scrollLeft" : 0,
               "staticSections" : [
                 {
-                  "$domain" : "appdoo.iOS",
+                  "$id" : "UITableViewSection10049",
                   "staticCells" : [
                     {
                       "isExpandedInEditorOutline" : true,
                       "$id" : "TableViewCellContentView10048",
-                      "$type" : "TableViewCellContentView",
+                      "scrollLeft" : 0,
                       "position" : {
                         "top" : 0,
                         "left" : 0
@@ -517,13 +518,13 @@
                       "hidden" : false,
                       "modalTransitionStyle" : "-1",
                       "userInteractionEnabled" : true,
-                      "scrollLeft" : 0
+                      "$type" : "TableViewCellContentView"
                     }
                   ],
                   "numberOfStaticCells" : 1,
                   "isExpandedInEditorOutline" : true,
                   "$type" : "UITableViewSection",
-                  "$id" : "UITableViewSection10049"
+                  "$domain" : "appdoo.iOS"
                 }
               ]
             }
@@ -539,7 +540,7 @@
           "hidden" : false,
           "userInteractionEnabled" : true,
           "name" : "Ansicht",
-          "scrollLeft" : 0
+          "$type" : "SceneRootView"
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -743,7 +744,7 @@
           "isExpandedInEditorOutline" : true,
           "v_scrollsVertically" : true,
           "$id" : "SceneRootView10224",
-          "$type" : "SceneRootView",
+          "scrollLeft" : 0,
           "position" : {
             "top" : 0,
             "left" : 0
@@ -937,8 +938,8 @@
               "bindings" : [
                 {
                   "destination" : "Scene10197InputData",
-                  "sourceKeyPath" : "text",
-                  "destinationKeyPath" : "contents.description"
+                  "destinationKeyPath" : "contents.description",
+                  "sourceKeyPath" : "text"
                 }
               ],
               "heightIsEditable" : false,
@@ -1008,12 +1009,12 @@
                 },
                 "$id" : "MoviePlayerView10128DataProvider",
                 "actionInfo" : {
-                  "$domain" : "appdoo",
+                  "type" : "objectAction",
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
                   "objectActionID" : "",
-                  "type" : "objectAction",
-                  "$type" : "ActionInfo"
+                  "$type" : "ActionInfo",
+                  "$domain" : "appdoo"
                 },
                 "propertiesForBindings" : [
                   "currentPlaybackTime",
@@ -1072,8 +1073,8 @@
               "bindings" : [
                 {
                   "destination" : "Scene10197InputData",
-                  "sourceKeyPath" : "text",
-                  "destinationKeyPath" : "contents.title"
+                  "destinationKeyPath" : "contents.title",
+                  "sourceKeyPath" : "text"
                 }
               ],
               "heightIsEditable" : false,
@@ -1104,7 +1105,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "scrollLeft" : 0
+          "$type" : "SceneRootView"
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -1175,8 +1176,8 @@
                 "bindings" : [
                   {
                     "destination" : "Scene10197InputData",
-                    "sourceKeyPath" : "inputDataIndexPath",
-                    "destinationKeyPath" : "indexPath"
+                    "destinationKeyPath" : "indexPath",
+                    "sourceKeyPath" : "inputDataIndexPath"
                   }
                 ],
                 "$type" : "SegmentedNavigationArrows",
@@ -1260,7 +1261,7 @@
         "viewData" : {
           "isExpandedInEditorOutline" : true,
           "$id" : "SceneRootView11695",
-          "scrollLeft" : 0,
+          "$type" : "SceneRootView",
           "position" : {
             "top" : 0,
             "left" : 0
@@ -1289,19 +1290,19 @@
                 },
                 "$id" : "UIWebView11708DataProvider",
                 "actionInfo" : {
-                  "objectActionID" : "",
+                  "$domain" : "appdoo",
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
                   "type" : "objectAction",
-                  "$type" : "ActionInfo",
-                  "$domain" : "appdoo"
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo"
                 },
                 "propertiesForBindings" : [
                   "canGoForward",
                   "canGoBack"
                 ],
                 "$domain" : "info.appdoo-mac",
-                "name" : "Web-Browser",
+                "name" : "Web View",
                 "objectID" : "UIWebView11708"
               },
               "showActivityIndicator" : false,
@@ -1352,7 +1353,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "$type" : "SceneRootView"
+          "scrollLeft" : 0
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -1420,7 +1421,7 @@
         "$type" : "UINavigationBar"
       },
       "selectedObjectIDs" : [
-        "UIBarButtonItem11707"
+        "ResourceReferenceace3d734d65d49de9ee85ccfb4f17574"
       ],
       "$type" : "Scene"
     },
@@ -1458,8 +1459,8 @@
         "title" : "Info",
         "viewData" : {
           "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
           "$id" : "SceneRootView10048",
-          "$type" : "SceneRootView",
           "position" : {
             "top" : 0,
             "left" : 0
@@ -1474,14 +1475,14 @@
             },
             "size" : {
               "width" : 320,
-              "height" : 576
+              "height" : 504
             }
           },
           "subviews" : [
             {
               "layoutMode" : "autoFitHeight",
               "position" : {
-                "top" : 548,
+                "top" : 476,
                 "left" : 15
               },
               "fontName" : "_DEFAULT_",
@@ -1489,7 +1490,7 @@
               "frame" : {
                 "origin" : {
                   "x" : 15,
-                  "y" : 548
+                  "y" : 476
                 },
                 "size" : {
                   "width" : 290,
@@ -1520,7 +1521,7 @@
             {
               "CSSTextColor" : "rgba(254,255,255,1.00)",
               "position" : {
-                "top" : 263,
+                "top" : 119,
                 "left" : 15
               },
               "fontName" : "_DEFAULT_",
@@ -1528,7 +1529,7 @@
               "frame" : {
                 "origin" : {
                   "x" : 15,
-                  "y" : 263
+                  "y" : 119
                 },
                 "size" : {
                   "width" : 290,
@@ -1592,7 +1593,7 @@
                 },
                 "size" : {
                   "width" : 108,
-                  "height" : 174
+                  "height" : 102
                 }
               },
               "$domain" : "appdoo.iOS",
@@ -1610,7 +1611,7 @@
               },
               "size" : {
                 "width" : 108,
-                "height" : 174
+                "height" : 102
               },
               "alpha" : 1,
               "isReferenced" : true,
@@ -1622,7 +1623,7 @@
             {
               "layoutMode" : "autoFitHeight",
               "position" : {
-                "top" : 221,
+                "top" : 149,
                 "left" : 15
               },
               "fontName" : "HelveticaNeue-Medium",
@@ -1630,11 +1631,11 @@
               "frame" : {
                 "origin" : {
                   "x" : 15,
-                  "y" : 221
+                  "y" : 149
                 },
                 "size" : {
                   "width" : 290,
-                  "height" : 22
+                  "height" : -50
                 }
               },
               "hidden" : false,
@@ -1657,7 +1658,7 @@
               ],
               "size" : {
                 "width" : 290,
-                "height" : 22
+                "height" : -50
               },
               "alpha" : 1,
               "fontSize" : 17,
@@ -1671,14 +1672,14 @@
           "transform" : "",
           "size" : {
             "width" : 320,
-            "height" : 576
+            "height" : 504
           },
           "heightIsEditable" : false,
           "scrollTop" : 0,
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "scrollLeft" : 0
+          "$type" : "SceneRootView"
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -1743,7 +1744,7 @@
         "$type" : "UINavigationBar"
       },
       "selectedObjectIDs" : [
-        "UIButton10043"
+        "ResourceReferenceace3d734d65d49de9ee85ccfb4f17574"
       ],
       "$type" : "Scene"
     },
@@ -1824,7 +1825,7 @@
         "viewData" : {
           "isExpandedInEditorOutline" : true,
           "$id" : "SceneRootView10051",
-          "$type" : "SceneRootView",
+          "scrollLeft" : 0,
           "position" : {
             "top" : 0,
             "left" : 0
@@ -1853,12 +1854,12 @@
                 },
                 "$id" : "UIWebView10052DataProvider",
                 "actionInfo" : {
-                  "$domain" : "appdoo",
+                  "$type" : "ActionInfo",
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
+                  "objectActionID" : "",
                   "type" : "objectAction",
-                  "$type" : "ActionInfo",
-                  "objectActionID" : ""
+                  "$domain" : "appdoo"
                 },
                 "propertiesForBindings" : [
                   "canGoForward",
@@ -1908,7 +1909,7 @@
           "alpha" : 1,
           "hidden" : false,
           "userInteractionEnabled" : true,
-          "scrollLeft" : 0
+          "$type" : "SceneRootView"
         },
         "$type" : "UIViewController",
         "$domain" : "appdoo.iOS"
@@ -1992,7 +1993,10 @@
         "Scene10197",
         "Scene11705",
         "Scene10042",
-        "Scene10045"
+        "Scene10045",
+        "Scene1",
+        "Scene11705",
+        "Scene10042"
       ],
       "inspectorCollapsedGroups" : [
         "UILabelShadow",
@@ -2006,7 +2010,7 @@
       "inspectorIsVisible" : true,
       "elementListIsVisible" : true,
       "globalObjectsNodeIsExpandedInEditorOutline" : true,
-      "historyStackPosition" : 4
+      "historyStackPosition" : 7
     },
     "hidesStatusBarOnLaunch" : 0,
     "editorVersion" : 363,
@@ -2023,7 +2027,7 @@
     "targetedDeviceFamily" : "iOS-Universal",
     "appleAppCategory" : "",
     "requiresBackgroundAudioPlayback" : false,
-    "editedObject" : "Scene10045",
+    "editedObject" : "Scene10042",
     "projectID" : "",
     "companyName" : "MAMPGmbH",
     "windowFrame" : "285 91 960 640 0 0 1440 878 ",
@@ -2039,7 +2043,7 @@
       "contentType" : "image\/png",
       "$id" : "ResourceReferenceace3d734d65d49de9ee85ccfb4f17574",
       "size" : 457959,
-      "resourceID" : "18114B7E-4C9F-46AD-ACE3-87FD42B3B08B-3704-00000EE8867AA64D.png",
+      "resourceID" : "532C8867-CCEF-4306-8605-7AD451810FF7-4049-00000D4FC5308D2F.png",
       "$domain" : "appdoo",
       "shouldSync" : true,
       "actionInfo" : {
@@ -2051,8 +2055,8 @@
         "$domain" : "appdoo"
       },
       "originalFileInfo" : {
-        "absolutePath" : "\/Users\/dirkeinecke\/Desktop\/appdoo-AppIcon.png",
-        "relativePath" : "..\/..\/..\/..\/..\/..\/..\/..\/Desktop\/appdoo-AppIcon.png",
+        "absolutePath" : "",
+        "relativePath" : "..\/appdoo-AppIcon.png",
         "modificationTime" : 1549882787.9610798,
         "$type" : "FileInfo",
         "$domain" : "appdoo"
